@@ -1,4 +1,4 @@
-# Lab 3
+# Lab 4
 
 ## Parte dirigida (explicación)
 
@@ -48,4 +48,4 @@ Después de eso, clone el repositorio de su compañera(o) y agregue algo al fina
 
 ### Envío del trabajo
 
-Suba el link de perfil de github a la plataforma del curso en la Tarea "Lab 3".
+Suba el link de perfil de github a la plataforma del curso en la Tarea "Lab 4".
