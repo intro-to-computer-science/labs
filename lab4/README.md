@@ -1,4 +1,4 @@
-# Lab 3
+# Lab 4
 
 ## Parte dirigida (explicación)
 
@@ -17,6 +17,10 @@ GitHub es una página que te permite crear repositorios y manipularlos con `git`
 ### Markdown
 
 Markdown es un *lenguaje de marcado* utilizado para crear textos con formato. Es uno de los lenguages de marcado más populares. Debido a ello, es muy utilizado para crear la documentación de programas en GitHub. [GitHub tiene una versión reducida del lenguaje Mardown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). GitHub te permite visualizar los archivos codificados en su versión de Markdown en la misma web. La extensión de estos archivos es `.md`.
+
+### Recommended IDE
+
+[VSCode](https://code.visualstudio.com/download)
 
 ## Parte calificada
 
@@ -44,4 +48,4 @@ Después de eso, clone el repositorio de su compañera(o) y agregue algo al fina
 
 ### Envío del trabajo
 
-Suba el link de perfil de github a la plataforma del curso en la Tarea "Lab 3".
+Suba el link de perfil de github a la plataforma del curso en la Tarea "Lab 4".
