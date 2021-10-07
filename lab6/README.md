@@ -9,10 +9,10 @@ A continuación les presentaremos una guía de los principales comandos para rea
 ---
 ```sql
 CREATE TABLE <tablename> (
-    <tipo de dato> <nombre de columna>,
-    <tipo de dato> <nombre de columna>,
-    <tipo de dato> <nombre de columna>,
-    <tipo de dato> <nombre de columna>,
+    <nombre de columna> <tipo de dato>,
+    <nombre de columna> <tipo de dato>,
+    <nombre de columna> <tipo de dato>,
+    <nombre de columna> <tipo de dato>,
     PRIMARY KEY <nombre de columna>
 );
 ```
