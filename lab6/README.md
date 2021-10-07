@@ -72,7 +72,6 @@ La popularidad del ajedrez ha llegado a la UTEC. Muchos alumnos han deseado insc
 La información que desea almacenar de cada integrante es la siguiente:
 
 - Nombre completo
-- Fecha de nacimiento
 - Ranking Fide (opcional). *Es un número de 0 a 3000*
 - Género (opcional).
 - Email
