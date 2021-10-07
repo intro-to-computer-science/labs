@@ -52,20 +52,16 @@ CREATE TABLE mercado (
     calorias FLOAT,
     PRIMARY KEY (id)
 );
-```
 
 -- Insertar un producto
-```sql
 INSERT INTO mercado (nombre, precio, calorias) VALUES ('Sublime', 1.50, 166);
 ```
 
 -- Seleccionar todos los productos con precio mayor a 1.
-```sql
 SELECT * FROM mercado WHERE precio > 1;
 ```
 
 -- Borrar una tabla
-```sql
 DROP TABLE mercado;
 ```
 
