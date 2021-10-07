@@ -84,4 +84,6 @@ Ayúdelo a crear dicha base de datos.
 
 Puede usar su gestor de bases de datos de preferencia, o en caso no tenga uno instalado, puede utilizar el siguiente [recurso online](https://extendsclass.com/mysql-online.html).
 
+### Entregable
+
 Debe entregar un documento con los queries utilizados para crear la tabla, insertar los datos y finalmente el query para seleccionar a los jugadores.
