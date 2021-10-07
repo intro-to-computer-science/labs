@@ -32,7 +32,13 @@ INSERT INTO <nombre de tabla> (<columnas>) VALUES (<datos>);
 ### Selección de datos:
 ---
 ```sql
-SELECT <columnas> FROM <columnas> WHERE <condición>
+SELECT <columnas> FROM <columnas> WHERE <condición>;
+```
+
+### Eliminar una tabla:
+---
+```sql
+DROP TABLE <nombre de tabla>;
 ```
 
 ## Ejemplo:
@@ -52,6 +58,10 @@ INSERT INTO mercado (nombre, precio, calorias) VALUES ('Sublime', 1.50, 166);
 
 -- Seleccionar todos los productos con precio mayor a 1.
 SELECT * FROM mercado WHERE precio > 1;
+```
+
+-- Borrar una tabla
+DROP TABLE mercado;
 ```
 
 ## Parte Calificada
