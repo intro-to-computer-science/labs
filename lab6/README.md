@@ -55,11 +55,9 @@ CREATE TABLE mercado (
 
 -- Insertar un producto
 INSERT INTO mercado (nombre, precio, calorias) VALUES ('Sublime', 1.50, 166);
-```
 
 -- Seleccionar todos los productos con precio mayor a 1.
 SELECT * FROM mercado WHERE precio > 1;
-```
 
 -- Borrar una tabla
 DROP TABLE mercado;
