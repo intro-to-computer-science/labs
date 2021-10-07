@@ -79,8 +79,8 @@ La información que desea almacenar de cada integrante es la siguiente:
 
 Ayúdelo a crear dicha base de datos.
 
-- Cree la tabla Chess con las columnas indicadas anteriormente (tomando en cuenta los tipos de dato para cada columna, y asegurese si los datos son obligatorios o no).
-- Usa una columna Id como llave primaria, esta debe incrementarse con cada inserción.
+- Cree la tabla `jugador` con las columnas indicadas anteriormente (tomando en cuenta los tipos de dato para cada columna, y asegurese si los datos son obligatorios o no).
+- Usa una columna `id` como llave primaria, esta debe incrementarse con cada inserción.
 - Inserta en la tabla tus datos y los de tus compañeros.
 - Genera un query que te permita seleccionar a todos los jugadores que cuenten con un Ranking FIDE mayor a >1500.
 
