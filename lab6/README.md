@@ -8,7 +8,7 @@ A continuación les presentaremos una guía de los principales comandos para rea
 ### Creación de tablas:
 ---
 ```sql
-CREATE TABLE <tablename> (
+CREATE TABLE <nombre de la tabla> (
     <nombre de columna> <tipo de dato>,
     <nombre de columna> <tipo de dato>,
     <nombre de columna> <tipo de dato>,
