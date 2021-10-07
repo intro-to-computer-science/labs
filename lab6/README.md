@@ -17,15 +17,17 @@ CREATE TABLE <tablename> (
 );
 ```
 
+Keywords utiles:
+- ```NOT NULL```: Indica que la columna no puede estar en blanco (obligatoria).
+- ```PRIMARY KEY```: Indica columna con valores únicos usados para identificar a las filas.
+- ```AUTO_INCREMENT```: Indica que el valor de esta columna no se tiene que insertar y va a crecer automáticamente.
+
+
 ### Inserción de datos:
 ---
 ```sql
 INSERT INTO <nombre de tabla> (<columnas>) VALUES (<datos>);
 ```
-Keywords utiles:
-- ```NOT NULL```: Indica que la columna no puede estar en blanco (obligatoria).
-- ```PRIMARY KEY```: Indica columna con valores únicos usados para identificar a las filas.
-- ```AUTO_INCREMENT```: Indica que el valor de esta columna no se tiene que insertar y va a crecer automáticamente.
 
 ### Selección de datos:
 ---
@@ -48,7 +50,7 @@ CREATE TABLE mercado (
 -- Insertar un producto
 INSERT INTO mercado (nombre, precio, calorias) VALUES ('Sublime', 1.50, 166);
 
--- Seleccionar todos los priductos con precio mayor a 1.
+-- Seleccionar todos los productos con precio mayor a 1.
 SELECT * FROM mercado WHERE precio > 1;
 ```
 
