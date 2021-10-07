@@ -84,7 +84,7 @@ Ayúdelo a crear dicha base de datos.
 - Inserta en la tabla tus datos y los de tus compañeros.
 - Genera un query que te permita seleccionar a todos los jugadores que cuenten con un Ranking FIDE mayor a >1500.
 
-Puede usar su gestor de bases de datos de preferencia, o en caso no tenga uno instalado, puede utilizar el siguiente [recurso online](https://extendsclass.com/mysql-online.html).
+Puede usar su gestor de bases de datos de preferencia, o en caso no tenga uno [instalado](https://www.mysql.com/downloads/), puede utilizar el siguiente [recurso online](https://extendsclass.com/mysql-online.html).
 
 ### Entregable
 
