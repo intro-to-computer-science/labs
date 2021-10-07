@@ -17,6 +17,8 @@ CREATE TABLE <nombre de la tabla> (
 );
 ```
 
+Los nombres de la tabla y nombres de las columnas no deben tener espacios en blanco.
+
 Keywords utiles:
 - ```NOT NULL```: Indica que la columna no puede estar en blanco (obligatoria).
 - ```PRIMARY KEY```: Indica columna con valores únicos usados para identificar a las filas.
