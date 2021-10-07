@@ -88,4 +88,4 @@ Puede usar su gestor de bases de datos de preferencia, o en caso no tenga uno in
 
 ### Entregable
 
-Debe entregar un documento con los queries utilizados para crear la tabla, insertar los datos y finalmente el query para seleccionar a los jugadores.
+Debe entregar un archivo `.txt` con los queries utilizados para crear la tabla, insertar los datos y finalmente el query para seleccionar a los jugadores.
