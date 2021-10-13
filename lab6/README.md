@@ -34,7 +34,7 @@ INSERT INTO <nombre de tabla> (<columnas>) VALUES (<datos>);
 ### Selección de datos:
 ---
 ```sql
-SELECT <columnas> FROM <columnas> WHERE <condición>;
+SELECT <columnas> FROM <nombre de tabla> WHERE <condición>;
 ```
 
 ### Eliminar una tabla:
