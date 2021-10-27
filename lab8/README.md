@@ -105,7 +105,7 @@ db.iris.update({"species": "setosa"}, {$set: {"species": 1}});
 
 Existen 151 Pokémon nativos a la región Kanto. Puedes encontrar un `dataset` con la información de estos en el archivo `pokemon.json`. El entrenador Paolo, busca convertirse en un verdadero maestro Pokémon, para esto, necesita tu ayuda para aprender más sobre ellos.
 
-- Genere una colección de MongoDB llamada `pokedex` e inserte los datos que se encuentran en el archivo `pokemon.json`.
+- Genere una colección de MongoDB llamada `pokedex-sucodigoutec` e inserte los datos que se encuentran en el archivo `pokemon.json`.
 
 Paolo tiene un Charizard muy poderoso; sin embargo, quiere saber cuales son los Pokémon que son débiles a sus ataques.
 
