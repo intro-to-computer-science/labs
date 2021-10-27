@@ -85,7 +85,7 @@ db.iris.insertMany([
 ```
 Buscar las flores de especie `setosa` con una longitud de sepalo mayor a `4.8`
 ```
-db.iris.find({$and: [{"species": "setosa"}, {sepalLength: {$gt: 4,8}}]});
+db.iris.find({$and: [{"species": "setosa"}, {sepalLength: {$gt: 4.8}}]});
 ```
 Cambiar todas la especie de todas las entradas de especie `setosa` a el numero `1`.
 ```
