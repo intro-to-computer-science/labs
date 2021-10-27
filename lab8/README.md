@@ -6,7 +6,7 @@ Las bases de datos NoSQL están diseñadas específicamente para modelos de dato
 
 Dentro de las bases de datos NoSQL, probablemente una de las más famosas sea MongoDB. Con un concepto muy diferente al de las bases de datos relacionales, se está convirtiendo en una interesante alternativa.
 
-MongoDB es una base de datos orientada a documentos. Esto quiere decir que en lugar de guardar los datos en registros, guarda los datos en documentos. Estos documentos son almacenados en BSON, que es una representación binaria de JSON.
+MongoDB es una base de datos orientada a documentos. Esto quiere decir que en lugar de guardar los datos en registros de tablas, guarda los datos en documentos. Estos documentos son almacenados en BSON, que es una representación binaria de [JSON](https://beginnersbook.com/2015/04/json-tutorial/).
 
 ### Creación de colección:
 ---
@@ -75,7 +75,6 @@ db.iris.insertMany([
   {"sepalLength": 4.9, "sepalWidth": 3.0, "petalLength": 1.4, "petalWidth": 0.2, "species": "setosa"},
   {"sepalLength": 4.7, "sepalWidth": 3.2, "petalLength": 1.3, "petalWidth": 0.2, "species": "setosa"},
   {"sepalLength": 4.6, "sepalWidth": 3.1, "petalLength": 1.5, "petalWidth": 0.2, "species": "setosa"},
-"petalWidth": 1.5, "species": "versicolor"},
   {"sepalLength": 5.6, "sepalWidth": 2.5, "petalLength": 3.9, "petalWidth": 1.1, "species": "versicolor"},
   {"sepalLength": 5.9, "sepalWidth": 3.2, "petalLength": 4.8, "petalWidth": 1.8, "species": "versicolor"},
   {"sepalLength": 6.1, "sepalWidth": 2.8, "petalLength": 4.0, "petalWidth": 1.3, "species": "versicolor"},
@@ -101,9 +100,9 @@ db.iris.update({"species": "setosa"}, {$set: {"species": 1}});
 
 Existen 151 Pokémon nativos a la región Kanto. Puedes encontrar un `dataset` con la información de estos en el archivo `pokemon.json`. El entrenador Paolo, busca convertirse en un verdadero maestro Pokémon, para esto, necesita tu ayuda para aprender más sobre ellos.
 
-- Genere una colección de MongoDB llamada `pokedex` e inserte los datos que se encuentran ene el archivo `pokemon.json`.
+- Genere una colección de MongoDB llamada `pokedex` e inserte los datos que se encuentran en el archivo `pokemon.json`.
 
-Paolo tiene un Charizard muy poderoso, sin embargo quiere saber cuales son los Pokémon que son débiles a sus ataques.
+Paolo tiene un Charizard muy poderoso; sin embargo, quiere saber cuales son los Pokémon que son débiles a sus ataques.
 
 - Genere una consulta que te muestre la información de `Charizard`. Podrás encontrar sus tipos en el campo `types`.
 - A partir de esos tipos, genere una consulta que te indique aquellos Pokémon que sean débiles a los tipos de `Charizard`. Este dato se encuentra en el campo `weaknesses`.
