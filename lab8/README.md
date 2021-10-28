@@ -98,7 +98,7 @@ db.iris.update({"species": "setosa"}, {$set: {"species": 1}});
 ```
 
 
-## Parte Calificada
+## Parte Práctica
 ---
 
 ### Pokédex
