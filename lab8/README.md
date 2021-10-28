@@ -62,7 +62,7 @@ db.<collectionName>.update(<query>, {$set: {<key>: <newValue>}}, {"multi": true/
 - `query`: Busca los datos a actualizar, sigue el mismo formato que una consulta find (`{<key>: <value>}`)
 - `multi`: `true` indica que se actualizan todos los valores que coincidan con el query, `false` indica que solo el primer valor que coincida se va a actualizar.
 
-Borrar una colección
+### Borrar una colección
 ```
 db.<collectionName>.drop()
 ```
