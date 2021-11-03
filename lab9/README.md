@@ -41,7 +41,7 @@ Dónde `keys` y `values` son listas de igual longitud. Adicionalmente, se puede 
 ### Scatterplot
 
 ```py
-plt.plot(<valores x>, <valores y>)
+plt.scatter(<valores x>, <valores y>)
 plt.show()
 ```
 Dónde los valores del eje `x` y `y` son listas de igual longitud. Como tercer parámetro se pueden ingresar distintos símbolos para representar la información como `*` para estrellas `o` para puntos o `x` para cruces.
