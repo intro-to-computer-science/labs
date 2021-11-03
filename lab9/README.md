@@ -99,7 +99,7 @@ plt.show()
 import matplotlib.pyplot as plt
 
 im = plt.imread('b.png')
-implot = plt.imshow(im)
+plt.imshow(im)
 
 plt.plot([112], [187], 'o', color="cyan")
 plt.plot([77, 40], [80, 33], 'o', color="yellow")
