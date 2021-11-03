@@ -20,8 +20,15 @@ d = json.load(f)
 ### Visualizar datos:
 ---
 Para este laboratorio, vamos a utilizar la librería `matplotib`.
+
 ```py
 import matplotlib.pyplot as plt
+```
+
+#### Instalación
+
+```sh
+pip install matplotlib
 ```
 
 ### Gráfico de barras
