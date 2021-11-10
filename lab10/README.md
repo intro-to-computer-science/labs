@@ -69,9 +69,9 @@ Los recorridos para el siguiente ejemplo son:
 
 ![Recorridos](./2.png)
 
-Post-order: 1, 4, 7, 6, 3, 13, 14, 10, 8
-In-order: 1, 3, 4, 6, 7, 8, 10, 13, 14
-Pre-order: 8, 3, 1, 6, 4, 7, 10, 14, 13
+* Post-order: 1, 4, 7, 6, 3, 13, 14, 10, 8
+* In-order: 1, 3, 4, 6, 7, 8, 10, 13, 14
+* Pre-order: 8, 3, 1, 6, 4, 7, 10, 14, 13
 
 ## Parte Práctica
 
