@@ -87,11 +87,13 @@ Crear un árbol binario de búsqueda insertando los 10 elementos en el orden mos
 
 Buscar el quinto elemento insertado en el árbol y mostrar el recorrido de los nodos por los que pasaron para encontrar al elemento.
 
+<!--
 ### Ejercicio 3
 
 Eliminar el séptimo elemento insertado y mostrar el árbol resultante después de la eliminación.
+-->
 
-### Ejercicio 4
+### Ejercicio 3
 
 Mostrar el recorrido Post-order, In-order y Pre-Order del árbol obtenido en el ejercicio 3.
 
