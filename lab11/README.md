@@ -80,6 +80,7 @@ app.run()
 ```
 
 Y el resultado sería el siguiente:
+
 ![Ejemplo](./ejemplo.png)
 
 ## Parte Práctica
