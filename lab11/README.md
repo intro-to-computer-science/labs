@@ -54,7 +54,7 @@ EditorCamera()
 
 La camara utiliza los siguientes controles:
 
-- `click izquierdo`: Rota la camara
+- `click derecho`: Rota la camara
 - `scroll click`: Mueve la camara
 - `scroll`: Controla el zoom
 
