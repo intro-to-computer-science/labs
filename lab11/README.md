@@ -85,7 +85,7 @@ Y el resultado sería el siguiente:
 
 ## Parte Práctica
 
-Utilizando las herramientas explicadas anteriormente, dibujen sus iniciales a base de entidades, utilizando una textura y color diferente para cada letra. Al menos una textura debe ser una externa a las incluidas con `ursina`.
+Utilizando las herramientas explicadas anteriormente, dibujen sus [iniciales](https://i.pinimg.com/564x/bd/b6/cd/bdb6cd9f52015c66fd48ec56a65f6b7e.jpg) a base de entidades, utilizando una textura y color diferente para cada letra. Al menos una textura debe ser una externa a las incluidas con `ursina`.
 
 ### Entregable
 
