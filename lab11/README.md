@@ -30,7 +30,7 @@ app.run()
 
 ### Dibujar una entidad
 
-Lo que sigue es un ejemplo en el cual se dibuja un cubo de color rojo, en la posición `(0,0,0)` el cual se ha rotado 45° en su eje `x` e `y` y se le ha aplicado la textura `white_cube`.
+Lo que sigue es un ejemplo en el cual se dibuja un [cubo](https://www.ursinaengine.org/cheat_sheet.html#models) de color rojo, en la posición `(0,0,0)` el cual se ha rotado 45° en su eje `x` e `y` y se le ha aplicado la textura `white_cube`.
 
 ```py
 Entity(model='cube', position=(0,0,0), color=color.red, texture='white_cube', rotation=(45,45,0))
