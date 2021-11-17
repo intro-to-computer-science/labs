@@ -10,7 +10,7 @@ Este campo puede ser dividido en varias áreas: Interpretado 3D en tiempo real (
 
 ### Ursina Engine
 
-Para este laboratorio, se utilizaremos el motor gráfico de la librería `Ursina Engine`. Podemos adquirirlo a traves de `pip` con el comando:
+Para este laboratorio, se utilizaremos el motor gráfico de la librería [Ursina Engine](https://www.ursinaengine.org/). Podemos adquirirlo a traves de `pip` con el comando:
 
 ```
 pip install ursina
