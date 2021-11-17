@@ -40,7 +40,7 @@ La clase entity tambien puede recibir los siguientes parámetros:
 
 - `position`: Recibe una triple tupla con la forma `(x,y,z)`
 - `texture`: Recibe el nombre de un archivo de textura (sin extensión), o puede usar una de las [texturas default](https://www.ursinaengine.org/cheat_sheet.html#textures).
-- `color`: Recibe un color.
+- `color`: Recibe un [color](https://www.ursinaengine.org/cheat_sheet.html#color).
 - `rotation`: Recibe una triple tupla con los grados de rotación en cada eje.
 
 ### Camara
