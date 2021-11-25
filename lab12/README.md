@@ -51,7 +51,7 @@ sample = [[-39.673293,-44.627058,-10.258163,-18.879989,-49.299946,91.763878,-29.
 kmeans.predict(sample)
 ```
 
-El tener un `k` muy grande, no tendrá sentido ya que habría muy pocas entidades por grupo, por ello utilice valores en `0-15`.
+El tener un `k` muy grande, no tendrá sentido ya que habría muy pocas entidades por grupo, por ello utilice valores en `1-15`.
 
 ### Entregable
 
