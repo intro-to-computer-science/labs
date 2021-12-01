@@ -56,7 +56,7 @@ Para este laboratorio, se utilizara la siguiente [página](http://ec2-3-128-171-
 
 ### Ejercicio 1:
 
-Realice una búsqueda por rango (con párametro x), usando como input suya
+Realice una búsqueda por rango (con párametro x), usando como input una imagen suya
 
 ### Ejercicio 2:
 
@@ -64,11 +64,11 @@ Realice una búsqueda de los k vecinos mas cercanos (siendo k el último digito 
 
 ### Ejercicio 3:
 
-Realice una búsqueda por rango (con párametro x), usando como input la imagen del famoso que más le guste
+Realice una búsqueda por rango (con párametro x), usando como input la imagen del "famoso" de su preferencia
 
 ### Ejercicio 4:
 
-Realice una búsqueda de los k vecinos más cercanos (siendo k el último dígito de su código), usando como input la imagen del famoso que mas le guste
+Realice una búsqueda de los k vecinos más cercanos (siendo k el último dígito de su código), usando como input la imagen del "famoso" de su preferencia
 
 ---
 
