@@ -44,7 +44,7 @@ Para encontrar algún item (rectángulo/polígono) que interseca algún punto o 
 
 Para las búsquedas por rango, se contará con un párametro `r`, el cuál sera un radio en el cual se buscaran todos los puntos que intersecan tal radio dado un punto de partida
 
-### K vecions más cercanos (KNN)
+### K vecinos más cercanos (KNN)
 
 Es un tipo de búsqueda en la cuál se buscan los K elementos del árbol más próximos a un punto de partida
 
