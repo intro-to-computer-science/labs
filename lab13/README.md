@@ -74,8 +74,6 @@ Realice una búsqueda de los k vecinos más cercanos (siendo k el último dígit
 
 ### Entregable
 
-Un archivo de texto que contenga:
-
 Subir 4 imágenes de tipo (.jpg, .jpeg o .png) evidenciando el resultado de cada consulta. Ejemplo: `1.png`
 
 ---
