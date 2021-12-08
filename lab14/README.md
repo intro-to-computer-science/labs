@@ -37,9 +37,27 @@ Si se sabe que solo se han encriptado las letras del alfabeto (a - z).
 
 Para ello ordena las letras del mensaje encriptado de acuerdo al numero de veces que se repiten (de mayor a menor) y compáralo con la tabla de frecuencia de caracteres del lenguaje en que esta escrito este mensaje, que para este caso es:
 
-freqLang = "TEOAISRHNUCMDLGWFPYKJBVQX" (de mas frecuente a menos frecuente)
+`freqLang = "TEOAISRHNUCMDLGWFPYKJBVQX"` (de mas frecuente a menos frecuente)
 
-Implementar la función: decryptMessage( message, freqLang )
+Uttilizando la tabla de frecuencia `freqLang`, podemos obtener el texto desencriptado:
+
+```
+Low-level programming is good for the programmer's soul.
+
+The game designer shouldn't be making a world in which the player is just a small part. The player IS THE BOSS; it's your duty to entertain him or her.
+
+Focus is a matter of deciding what things you are not going to do.
+
+The cost of adding a feature isn't just the time it takes to code it. The cost also includes the addition of an obstacle to future expansion. The trick is to pick the features that don't fight each other. - John Carmack.
+
+(www.gamasutra.com/view/news/234346?vpyumdluc)
+
+(www.brainyquote.com/quotes/authors/j/john_carmack.html)
+```
+
+---
+
+Implementar la función: `decryptMessage( message, freqLang )`
 
 Tu programa debe imprimir el texto desencriptado en pantalla.
 
@@ -47,17 +65,37 @@ Mantener las mayúsculas y minúsculas del mensaje, así como los saltos de line
 
 El texto a desencriptar y la frecuencia de caracteres dependerá del último dígito de tu código de alumno:
 
-0-1: text="Tfwv wv tfs hwzvt xubzvs wy tfs vspbsyxs uh wytzuebxtuzj xubzvsv tu Xugcbtsz\nVxwsyxs.Tfwv xubzvs wv wytsyese tu xuosz tfs xuyxsctv ubtdwyse kj tfs Xugcbtwyi Xbzzwxbda WSSS-XV/AXG 2013.\nCzuizaggwyi wv uys uh tfs cwddazv uh Xugcbtsz Vxwsyxs; ayj czuhsvvwuyad uh tfs azsa, nwdd ysse tu czuizag tu\ngatszwadwms tfswz guesdv aye czucuvadv. Tfwv xubzvs wytzuebxsv caztwxwcaytv tu tfs hbyeagsytad xuyxsctv uh tfwv azt.\nTucwxv wyxdbes eata tjcsv, xuytzud vtzbxtbzsv, hbyxtwuyv, dwvtv, zsxbzvwuy, aye tfs gsxfaywxv uh slsxbtwuy, tsvtwyi, aye\neskbiiwyi."
+- `0-1`: 
+```py
+text="Tfwv wv tfs hwzvt xubzvs wy tfs vspbsyxs uh wytzuebxtuzj xubzvsv tu Xugcbtsz Vxwsyxs.Tfwv xubzvs wv wytsyese tu xuosz tfs xuyxsctv ubtdwyse kj tfs Xugcbtwyi Xbzzwxbda WSSS-XV/AXG 2013.\nCzuizaggwyi wv uys uh tfs cwddazv uh Xugcbtsz Vxwsyxs; ayj czuhsvvwuyad uh tfs azsa, nwdd ysse tu czuizag tu gatszwadwms tfswz guesdv aye czucuvadv. Tfwv xubzvs wytzuebxsv caztwxwcaytv tu tfs hbyeagsytad xuyxsctv uh tfwv azt.\nTucwxv wyxdbes eata tjcsv, xuytzud vtzbxtbzsv, hbyxtwuyv, dwvtv, zsxbzvwuy, aye tfs gsxfaywxv uh slsxbtwuy, tsvtwyi, aye eskbiiwyi."
+
 freqLang="ETOSICNRAUPLDHMFGYBXZWVQ"
-2-3: text="Pegifcac gafjiajfcg kfbrepc anc ancbfcaeidm lbjhpdaebhg hcicggdfq lbf ibokjadaebh. Ancgc ljhpdochadmg dfc hba bhmq jgcljm ab pcrcmbk ibokjadaebh lfbo d ancbfcaeidm kbeha bl recu dg ea ndkkchg\neh anc ibjfgc bl ibokjadaebhdm ancbfq, tja dmgb eg jgcljm lbf anc kfdiaeic bl ibokjaehs; Eh kdfaeijmdf eh dkkmeidaebhg\ngjin dg rcfeleidaebh, ifqkabsfdknq, lbfodm ocanbpg, cai."
+```
+- `2-3`: 
+```py
+text="Pegifcac gafjiajfcg kfbrepc anc ancbfcaeidm lbjhpdaebhg hcicggdfq lbf ibokjadaebh. Ancgc ljhpdochadmg dfc hba bhmq jgcljm ab pcrcmbk ibokjadaebh lfbo d ancbfcaeidm kbeha bl recu dg ea ndkkchg eh anc ibjfgc bl ibokjadaebhdm ancbfq, tja dmgb eg jgcljm lbf anc kfdiaeic bl ibokjaehs; Eh kdfaeijmdf eh dkkmeidaebhg gjin dg rcfeleidaebh, ifqkabsfdknq, lbfodm ocanbpg, cai."
+
 freqLang="TOEAIRSNCUPFLHMDYVGBW"
-4-5: text="Zida da ziy aycbgj cbfeay dg ziy aysfygcy bl dgzebjfczber cbfeaya dg cbonfzye\nacdygcy. Ziy cbfeay pdmm dgzebjfcy azfjygza dg ziy qhedbfa zbndca bl ziy heyh bl cbonfzdgk afci ha: Hmkbedzioa, Jhzh Azefczfeya, Ablzphey Ygkdgyyedgk, yzc."
+```
+
+`4-5`:
+```py
+text="Zida da ziy aycbgj cbfeay dg ziy aysfygcy bl dgzebjfczber cbfeaya dg cbonfzye\nacdygcy. Ziy cbfeay pdmm dgzebjfcy azfjygza dg ziy qhedbfa zbndca bl ziy heyh bl cbonfzdgk afci ha: Hmkbedzioa, Jhzh Azefczfeya, Ablzphey Ygkdgyyedgk, yzc."
+
 freqLang="ETSOCIRUNAHDGFLPMWVYQ"
-6-7: text="Gkc pfmnj kdi lkdhtcj jrc gf gkc ric fw wdqmel dhj mcndgcj gclkhfnfteci, mdoej, geucnv dhj ocmifhdnezcj dllcii gf gkc ehwfmudgefh, gkmfrtk pcq gclkhfnftv, rqexregfri dhj ocmsdiesc; gkcv kdsc lkdhtcj gkc pdv pc jf gkehti, kfp jf pc gkehy? dhj kfp jfci gkc ehjrigmv jcscnfo? Pcq gclkhfnfteci, rqexregfri dhj ocmsdiesc dmc qdicj fh gkc jcscnfouchg fw pcq icmselci, pcq dooneldgefhi dhj ufqenc dooneldgefhi, pkelk dmc hclciidmv gf rhjcmigdhj gkc dmlkegclgrmc, jcieth, dhj euoncuchgdgefh fw pcq icmselci, pcq dooneldgefhi dhj ufqenc dooneldgefhi."
+```
+`6-7`:
+```py
+text="Gkc pfmnj kdi lkdhtcj jrc gf gkc ric fw wdqmel dhj mcndgcj gclkhfnfteci, mdoej, geucnv dhj ocmifhdnezcj dllcii gf gkc ehwfmudgefh, gkmfrtk pcq gclkhfnftv, rqexregfri dhj ocmsdiesc; gkcv kdsc lkdhtcj gkc pdv pc jf gkehti, kfp jf pc gkehy? dhj kfp jfci gkc ehjrigmv jcscnfo? Pcq gclkhfnfteci, rqexregfri dhj ocmsdiesc dmc qdicj fh gkc jcscnfouchg fw pcq icmselci, pcq dooneldgefhi dhj ufqenc dooneldgefhi, pkelk dmc hclciidmv gf rhjcmigdhj gkc dmlkegclgrmc, jcieth, dhj euoncuchgdgefh fw pcq icmselci, pcq dooneldgefhi dhj ufqenc dooneldgefhi."
+
 freqLang="EAIOTNSDHCRLPWBUVGMYFQKZ"
-8-9: text="Yakbcixzyba ixaxmwiwaz (YI) hexod x ixtbc cbew ya xeibdz xee xcwxd sjwcw gbihlzwcd xcw ldwf. Zjyd xcwx yagelfwd zjw gxhzlcw, fymyzyrxzyba, cwhcwdwazxzyba, bcmxayrxzyba, zcxadkbcixzyba xaf hcwdwazxzyba bk yakbcixzyba; Xembcyzjid zb yihcbpw zjw wkkygywago xaf wkkwgzypwawdd bk xggwddyam xaf lhfxzyam dzbcwf yakbcixzyba, fxzx ibfweyam xaf xndzcxgzyba, xaf hjodygxe kyew dzbcxmw zwgjayqlwd.Yz xedb gbpwcd yakbcixzyba dwglcyzo, hcypxgo, yazwmcyzo xaf hcbzwgzyba ya x djxcwf wapycbaiwaz.
-Dzlfwazd awwf zb nw xnew zb fwpwebh gbagwhzlxe xaf hjodygxe fxzx ibfwed, fwzwciyaw sjygj (YI) iwzjbfd xaf zwgjayqlwd xcw xhhcbhcyxzw kbc x mypwa hcbnewi, xaf nw xnew zb dwewgz xaf yihewiwaz xa xhhcbhcyxzw YI dbelzyba zjxz cwkewgzd xee xhheygxnew cwdzcygzybad, yagelfyam Dgxexnyeyzo xaf ldxnyeyzo."
+```
+`8-9`:
+```py
+text="Yakbcixzyba ixaxmwiwaz (YI) hexod x ixtbc cbew ya xeibdz xee xcwxd sjwcw gbihlzwcd xcw ldwf. Zjyd xcwx yagelfwd zjw gxhzlcw, fymyzyrxzyba, cwhcwdwazxzyba, bcmxayrxzyba, zcxadkbcixzyba xaf hcwdwazxzyba bk yakbcixzyba; Xembcyzjid zb yihcbpw zjw wkkygywago xaf wkkwgzypwawdd bk xggwddyam xaf lhfxzyam dzbcwf yakbcixzyba, fxzx ibfweyam xaf xndzcxgzyba, xaf hjodygxe kyew dzbcxmw zwgjayqlwd.Yz xedb gbpwcd yakbcixzyba dwglcyzo, hcypxgo, yazwmcyzo xaf hcbzwgzyba ya x djxcwf wapycbaiwaz.\nDzlfwazd awwf zb nw xnew zb fwpwebh gbagwhzlxe xaf hjodygxe fxzx ibfwed, fwzwciyaw sjygj (YI) iwzjbfd xaf zwgjayqlwd xcw xhhcbhcyxzw kbc x mypwa hcbnewi, xaf nw xnew zb dwewgz xaf yihewiwaz xa xhhcbhcyxzw YI dbelzyba zjxz cwkewgzd xee xhheygxnew cwdzcygzybad, yagelfyam Dgxexnyeyzo xaf ldxnyeyzo."
+
 freqLang="EAITNORSLDCPMHFUGBYVQZWJ"
+```
 
 
 
@@ -65,7 +103,7 @@ freqLang="EAITNORSLDCPMHFUGBYVQZWJ"
 
 ### Entregable
 
-Un archivo .py con la resolución del problema y un archivo .txt con el mensaje desencriptado.
+Un archivo `.py` con la resolución del problema y un archivo `.txt` con el mensaje desencriptado.
 
 ---
 
