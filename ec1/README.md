@@ -16,11 +16,11 @@ Mandar un Pull request con la corrección a alguno de los errores que están pre
 
 Para contribuir al curso con sus pull requests, deberá seguir los siguientes pasos
 
-1. [Crear un issue](https://github.com/franciscovilchezv/platform-based-development/issues) en el cual detalle el error encontrado o mejora que realizará. Incluir un título adecuado y una descripción del problema.
+1. [Crear un issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) en el cual detalle el error encontrado o mejora que realizará. Incluir un título adecuado y una descripción del problema.
 
 *Esperar a que el dueño/encargado del proyecto (i.e. @franciscovilchezv) le diga que puede proceder a arreglar el issue que menciona, ya que probablemente el autor no considera que sea necesario realizar el cambio que menciona.*
 
-2. Realizar un fork al [proyecto](https://github.com/franciscovilchezv/platform-based-development).
+2. Realizar un fork al [proyecto](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 3. Realizar los cambios necesarios a su fork. Sus mensajes en sus commits deberán empezar con `#n: `, donde `n` es el número del issue que registró en el paso 1. Por ejemplo:
 
