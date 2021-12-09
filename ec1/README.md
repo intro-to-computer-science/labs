@@ -1,5 +1,7 @@
 # Extra Credit 1
 
+Esta tarea es su oportunidad de ganar hasta 1 punto extra en la PC1 o recuperar hasta 1 lab no entregado.
+
 Durante el desarrollo de este curso, probablemente ha notado muchos errores en los materiales subidos los [repositorios de Github del curso](https://github.com/cs1000-utec).
 
 ## Misión
