@@ -28,7 +28,7 @@ Para contribuir al curso con sus pull requests, deberá seguir los siguientes pa
 git commit -am "#3: Fixing typo in 'platform' word"
 ```
 
-4. Mandar un pull request para que incluyan su modificación en el proyecto.
+4. Mandar un [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) para que incluyan su modificación en el proyecto.
 
 *Revisarlo periódicamente el Pull Request ya que es posible que se solicite modificaciones al cambio que envió.*
 
