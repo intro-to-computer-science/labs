@@ -30,7 +30,7 @@ git commit -am "#3: Fixing typo in 'platform' word"
 
 4. Mandar un [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request) para que incluyan su modificación en el proyecto.
 
-*Revisarlo periódicamente el Pull Request ya que es posible que se solicite modificaciones al cambio que envió.*
+*Revisarlo periódicamente el Pull Request ya que es posible que se solicite modificaciones al cambio que envió. En caso existan conflictos en su modificación, puede revisar la siguiente [guía para resolverlos](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line#competing-line-change-merge-conflicts).*
 
 ## Puntaje
 
