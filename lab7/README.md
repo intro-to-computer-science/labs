@@ -28,12 +28,12 @@ https://docs.github.com/en/github/writing-on-github/getting-started-with-writing
 
 Recordar que los pasos para crear un api son:
 
-1. agregar numeros a la url
+1. agregar números a la url
 ```python
 @app.route('/operaciones/<num1>/<num2>', methods=['GET'])
 ```
 
-2. agregar los numeros como parametros de la funcion
+2. agregar los números como parámetros de la función
 ```python
 def ejercicio2(num1, num2):
 ```
