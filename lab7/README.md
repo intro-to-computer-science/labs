@@ -40,10 +40,10 @@ def ejercicio2(num1, num2):
 
 3. Codificar lo que nos pide el problema.
 ```python.
-suma = int(num1) + int(num2)
-resta = int(num1) - int(num2)
-mult = int(num1) * int(num2)
-divi = int(num1) / int(num2)
+suma = int(num1) + int(num1) + int(num2)
+resta = int(num1) + int(num1) - int(num2)
+mult = int(num1) + int(num1) * int(num2)
+divi = int(num1) + int(num1) / int(num2)
 ```
 
 4. Devolver el resultado del problema.
