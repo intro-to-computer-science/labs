@@ -42,7 +42,7 @@ Antes de comenzar, ejecuta el bloque de código llamado `Magia Negra`
 
 ![Magia](./img/magia.jpg)
 
-El objetivo de este laboratorio es emplear un modelo de K-Means para clasificar distintos tipos de células. Se cuenta con un dataset (se descarga automáticamente en el módulo de `magia negra`) con 189 células distintas, cada una con 22mil características. En la variable `k` usted debe ingresar el número de clusters (el número de tipos de células) que cree que hayan en el dataset. Tras ejecutar la siguiente sección, va a encontrar dos funciones que lo ayudaran a verificar sus resultados: `confusion_matrix` y `accuracy_score`. Ejecutelos para tener una idea de que tan preciso es su modelo. Juegue con la variable `k` de modo que maximice el `accuracy_score`.
+El objetivo de este laboratorio es emplear un modelo de K-Means para clasificar distintos tipos de células. Se cuenta con un dataset (se descarga automáticamente en el módulo de `magia negra`) con 189 células distintas, cada una con 22mil características. En la variable `k` usted debe ingresar el número de clusters (el número de tipos de células) que cree que hayan en el dataset. Tras ejecutar la siguiente sección, va a encontrar dos funciones que lo ayudarán a verificar sus resultados: `confusion_matrix` y `accuracy_score`. Ejecutelos para tener una idea de que tan preciso es su modelo. Juegue con la variable `k` de modo que maximice el `accuracy_score`.
 
 Una vez encuentres el numero de clusters ideal, ejecuta la siguiente linea de código para clasificar la célula representada en la variable sample.
 
