@@ -61,4 +61,4 @@ Un archivo de texto que contenga:
 - El número ideal de clusters
 - La matriz de confusión final
 - El `accuracy_score` final
-- El resultado de la prediccion del `sample`
+- El resultado de la predicción del `sample`
