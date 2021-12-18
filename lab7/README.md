@@ -4,11 +4,11 @@ Se les recomienda a los alumnos revisar los siguientes temas para la PC1
 
 ## Puertas lógicas
 
-Repasar el ejercicio que hicimos utilzando:
+Repasar el ejercicio que hicimos utilizando:
 
 https://academo.org/demos/logic-gate-simulator/
 
-Solo podra utilizar AND, OR y NOT.
+Solo podrá utilizar AND, OR y NOT.
 
 ## Operaciones binarias en Python
 
