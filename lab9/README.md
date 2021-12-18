@@ -46,7 +46,7 @@ plt.show()
 ```
 Dónde los valores del eje `x` y `y` son listas de igual longitud. Como tercer parámetro se pueden ingresar distintos símbolos para representar la información como `*` para estrellas `o` para puntos o `x` para cruces.
 
-Adicionalmente, se tiene el método `legend` el cual recibe una lista titulos para la leyenda y los métodos `xlabel` y `ylabel` para darles etiquetas a los ejes `x` e `y`.
+Adicionalmente, se tiene el método `legend` el cual recibe una lista de títulos para la leyenda y los métodos `xlabel` y `ylabel` para darles etiquetas a los ejes `x` e `y`.
 ```py
 plt.legend(<titulos>)
 plt.xlabel(<nombre>)
@@ -55,7 +55,7 @@ plt.ylabel(<nombre>)
 
 ### Graficar sobre un mapa
 
-Si se tiene un mapa como imagen de fondo, podemos graficar sobre este, utlizando los ejes `x` e `y` como coordenadas.
+Si se tiene un mapa como imagen de fondo, podemos graficar sobre este, utilizando los ejes `x` e `y` como coordenadas.
 
 ```py
 im = plt.imread('imagen.png')
@@ -112,7 +112,7 @@ plt.show()
 
 ## Parte Práctica
 
-El entrenador Paolo sigue con su deseo de convertirse en un maestro Pokémon y le fue de gran ayuda la información que le brindaste la vez pasada, sin embargo, necesita conocer aún mucho más sobre los Pokémon y la información acerca de estos contenida en la base de datos no es muy amigable ni intuitiva para el, por lo que necesitará ver la información de manera visual para entenderla y comprenderla de mejor manera. Ayuda a Paolo y resuelve los siguientes ejericios:
+El entrenador Paolo sigue con su deseo de convertirse en un maestro Pokémon y le fue de gran ayuda la información que le brindaste la vez pasada, sin embargo, necesita conocer aún mucho más sobre los Pokémon y la información acerca de estos contenida en la base de datos no es muy amigable ni intuitiva para él, por lo que necesitará ver la información de manera visual para entenderla y comprenderla de mejor manera. Ayuda a Paolo y resuelve los siguientes ejercicios:
 
 ### Ejercicio 1
 
