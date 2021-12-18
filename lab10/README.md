@@ -4,7 +4,7 @@
 
 Una estructura de datos es una forma particular de organizar datos en una computadora para que puedan ser utilizados de manera eficiente. Diferentes tipos de estructuras de datos son adecuados para diferentes tipos de aplicaciones, y algunos son altamente especializados para tareas específicas.
 
-Las estructuras de datos no solo representan la información, también tienen un comportamiento interno, y se rige por ciertas reglas/restricciones dadas por la forma en que está construida internamente. Entre las estructuras de datos más conocidas se encuentran las listas, los stacks y las colas. En este laboratorio trabajaremos con los árboles binarios de búsqueda pero para esto es importante primero saber que es un árbol.
+Las estructuras de datos no solo representan la información, también tienen un comportamiento interno, y se rige por ciertas reglas/restricciones dadas por la forma en que está construida internamente. Entre las estructuras de datos más conocidas se encuentran las listas, los stacks y las colas. En este laboratorio trabajaremos con los árboles binarios de búsqueda, pero para esto es importante primero saber que es un árbol.
 
 ### Árboles
 
