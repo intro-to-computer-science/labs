@@ -42,16 +42,16 @@ Antes de comenzar, ejecuta el bloque de código llamado `Magia Negra`
 
 ![Magia](./img/magia.jpg)
 
-El objetivo de este laboratorio es emplear un modelo de K-Means para clasificar distintos tipos de células. Se cuenta con un dataset (se descarga automáticamente en el modulo de `magia negra`) con 189 células distintas, cada una con 22mil características cada una. En la variable `k` usted debe ingresar el número de clusters (el número de tipos de células) que cree que hayan en el dataset. Tras ejecutar la siguiente sección, va a encontrar dos funciones que lo ayudaran a verificar sus resultados: `confusion_matrix` y `accuracy_score`. Ejecutelos para tener una idea de que tan preciso es su modelo. Juegue con la variable `k` de modo que maximice el `accuracy_score`.
+El objetivo de este laboratorio es emplear un modelo de K-Means para clasificar distintos tipos de células. Se cuenta con un dataset (se descarga automáticamente en el módulo de `magia negra`) con 189 células distintas, cada una con 22mil características. En la variable `k` usted debe ingresar el número de clusters (el número de tipos de células) que cree que hayan en el dataset. Tras ejecutar la siguiente sección, va a encontrar dos funciones que lo ayudarán a verificar sus resultados: `confusion_matrix` y `accuracy_score`. Ejecútelos para tener una idea de que tan preciso es su modelo. Juegue con la variable `k` de modo que maximice el `accuracy_score`.
 
-Una vez encuentres el numero de clusters ideal, ejecuta la siguiente linea de código para clasificar la célula representada en la variable sample.
+Una vez encuentres el número de clusters ideal, ejecuta la siguiente línea de código para clasificar la célula representada en la variable sample.
 
 ```py
 sample = [[-39.673293,-44.627058,-10.258163,-18.879989,-49.299946,91.763878,-29.933047,-5.855481,0.393467,15.983484,1.883337,3.035447,-1.117402,-2.636451,-2.063941,2.701432,6.150914,-1.907788,4.144850,-3.033022,2.985857,0.960868,1.994154,3.374098,6.217091,0.024324,0.359676,-4.418659,-1.293296,1.454574,-0.923630,-0.056892,4.999286,4.701583,-1.639602,1.832796,-3.537451,-0.423164,-12.912299,8.454091,-5.329655,0.676623,1.912994,-5.360271,-0.292433,-11.401383,-0.123102,5.145642,-5.092689,-8.202529]]
 kmeans.predict(sample)
 ```
 
-El tener un `k` muy grande, no tendrá sentido ya que habría muy pocas entidades por grupo, por ello utilice valores en `1-15`.
+El tener un `k` muy grande, no tendrá sentido ya que habría muy pocas entidades por grupo, por ello utilice valores entre `1-15`.
 
 ### Entregable
 
@@ -61,4 +61,4 @@ Un archivo de texto que contenga:
 - El número ideal de clusters
 - La matriz de confusión final
 - El `accuracy_score` final
-- El resultado de la prediccion del `sample`
+- El resultado de la predicción del `sample`
