@@ -10,7 +10,7 @@ Este campo puede ser dividido en varias áreas: Interpretado 3D en tiempo real (
 
 ### Ursina Engine
 
-Para este laboratorio, se utilizaremos el motor gráfico de la librería [Ursina Engine](https://www.ursinaengine.org/). Podemos adquirirlo a traves de `pip` con el comando:
+Para este laboratorio, se utilizaremos el motor gráfico de la librería [Ursina Engine](https://www.ursinaengine.org/). Podemos adquirirlo a través de `pip` con el comando:
 
 ```
 pip install ursina
@@ -43,19 +43,19 @@ La clase entity tambien puede recibir los siguientes parámetros:
 - `color`: Recibe un [color](https://www.ursinaengine.org/cheat_sheet.html#color).
 - `rotation`: Recibe una triple tupla con los grados de rotación en cada eje.
 
-### Camara
+### Cámara
 
-Para agregar una camara de control manual, de modo que se puedan ver los objetos de distintos ángulos, se pueden agregar las siguientes lineas de código:
+Para agregar una cámara de control manual, de modo que se puedan ver los objetos de distintos ángulos, se pueden agregar las siguientes líneas de código:
 
 ```py
 camera.orthographic = True
 EditorCamera()
 ```
 
-La camara utiliza los siguientes controles:
+La cámara utiliza los siguientes controles:
 
-- `click derecho`: Rota la camara
-- `scroll click`: Mueve la camara
+- `click derecho`: Rota la cámara
+- `scroll click`: Mueve la cámara
 - `scroll`: Controla el zoom
 
 ### Ejemplo
