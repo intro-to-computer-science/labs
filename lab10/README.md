@@ -27,8 +27,8 @@ Es la unidad fundamental de la que están formados los árboles y los grafos en 
 
 Un árbol binario es un árbol en donde cada nodo solo puede tener 2 nodos como máximo. Un árbol binario de búsqueda es un tipo de árbol binario en donde el hijo izquierdo solamente contiene nodos con valores menores o iguales que el nodo padre, y en donde el hijo derecho solamente contiene nodos con valores mayores al nodo padre. Estos árboles nos permiten realizar operaciones mucho más rápidas que una estructura sencilla sobre la data.
 
-* El `nivel` de un nodo es la longitud del camino desde la raíz hasta el nodo (la raíz tiene nivel 0)
-* La `profundidad` de un nodo es sinónimo del `nivel` del nodo
+* El `nivel` de un nodo es la longitud del camino desde la raíz hasta el nodo (la raíz tiene nivel 0).
+* La `profundidad` de un nodo es sinónimo del `nivel` del nodo.
 * La `altura` de un nodo es la distancia más larga de ese nodo hacia un nodo hoja (un nodo hoja tiene altura 0). La `altura de un árbol` es la altura del nodo raíz.
 
 ![Árbol binario de búsqueda](./2.png)
@@ -51,15 +51,15 @@ Todo elemento que insertemos siempre va a hacer un nodo hoja. Se empieza buscand
 
 Para eliminar elementos tenemos que buscar el nodo a eliminar con el algoritmo de búsqueda y controlar los siguientes 3 casos:
 
-* Si es una nodo hoja: Eliminarlo
-* Si es un nodo con un hijo: Reemplazarlo con su hijo y eliminarlo
-* Si es un nodo con dos hijos: Se busca el siguiente elemento o el anterior (esta decisión es completamente arbitraria) al nodo a eliminar y se reemplaza para eliminarlo, siempre y cuando sea una hoja al reemplazarlo (este proceso puede realizarse varias)
+* Si es una nodo hoja: Eliminarlo.
+* Si es un nodo con un hijo: Reemplazarlo con su hijo y eliminarlo.
+* Si es un nodo con dos hijos: Se busca el siguiente elemento o el anterior (esta decisión es completamente arbitraria) al nodo a eliminar y se reemplaza para eliminarlo, siempre y cuando sea una hoja al reemplazarlo (este proceso puede realizarse varias).
 
-NOTA: Este algoritmo no será evaluado en el laboratorio
+NOTA: Este algoritmo no será evaluado en el laboratorio.
 
 ### Recorridos de un árbol
 
-Recorrer un árbol significa visitar cada nodo en un orden específico
+Recorrer un árbol significa visitar cada nodo en un orden específico.
 
 1. Post-order: Se recorre el hijo izquierdo, luego el hijo derecho y se lee la data.
 2. In-order: Se recorre el hijo izquierdo, se lee la data y después se recorre el hijo derecho.
