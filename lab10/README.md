@@ -53,7 +53,7 @@ Para eliminar elementos tenemos que buscar el nodo a eliminar con el algoritmo d
 
 * Si es una nodo hoja: Eliminarlo.
 * Si es un nodo con un hijo: Reemplazarlo con su hijo y eliminarlo.
-* Si es un nodo con dos hijos: Se busca el siguiente elemento o el anterior (esta decisión es completamente arbitraria) al nodo a eliminar y se reemplaza para eliminarlo, siempre y cuando sea una hoja al reemplazarlo (este proceso puede realizarse varias).
+* Si es un nodo con dos hijos: Se busca el siguiente elemento o el anterior al nodo a eliminar (esta decisión es completamente arbitraria) y se elimina siempre y cuando sea una hoja (este proceso puede realizarse varias veces).
 
 NOTA: Este algoritmo no será evaluado en el laboratorio.
 
