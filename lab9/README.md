@@ -4,7 +4,7 @@
 
 La visualización de datos es la representación gráfica de información y datos. Al utilizar elementos visuales como cuadros, gráficos y mapas, las herramientas de visualización de datos proporcionan una manera accesible de ver y comprender tendencias, valores atípicos y patrones en los datos.
 
-La visualización de datos es otra forma de arte visual que capta nuestro interés y mantiene nuestros ojos en el mensaje. . Si podemos ver algo, lo interiorizamos rápidamente. Es contar historias con un propósito. Si alguna vez haz visto una gigantesca hoja de cálculo de datos y no te fue posible ver una tendencia, sabes cuán eficaz puede ser una visualización
+La visualización de datos es otra forma de arte visual que capta nuestro interés y mantiene nuestros ojos en el mensaje. Si podemos ver algo, lo interiorizamos rápidamente. Es contar historias con un propósito. Si alguna vez haz visto una gigantesca hoja de cálculo de datos y no te fue posible ver una tendencia, sabes cuán eficaz puede ser una visualización
 
 ### Leer un JSON como un diccionario:
 ---
@@ -136,4 +136,4 @@ NOTA: Poner títulos y etiquetas a los ejes para cada gráfico
 
 ### Entregable
 
-Debe entregar un archivo `.py` con la solucion a cada ejercicio en una funcion `ejercicioX` (X siendo el número del ejercicio).
+Debe entregar un archivo `.py` con la solución a cada ejercicio en una función `ejercicioX` (X siendo el número del ejercicio).
