@@ -37,7 +37,7 @@ Si se sabe que solo se han encriptado las letras del alfabeto (a - z).
 
 Para ello ordena las letras del mensaje encriptado de acuerdo al número de veces que se repiten (de mayor a menor) y compáralo con la tabla de frecuencia de caracteres del lenguaje en que está escrito este mensaje, que para este caso es:
 
-`freqLang = "TEOAISRHNUCMDLGWFPYKJBVQX"` (de mas frecuente a menos frecuente)
+`freqLang = "TEOAISRHNUCMDLGWFPYKJBVQX"` (de más frecuente a menos frecuente)
 
 Uttilizando la tabla de frecuencia `freqLang`, podemos obtener el texto desencriptado:
 
