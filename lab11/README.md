@@ -1,93 +1,109 @@
-# Laboratorio 11
+# Lab-Ursina
+## Parte Explicativa
 
-## Parte Dirigida
+**Ursina Engine**
+
+Campo de la informática visual, donde se utilizan computadoras para generar imágenes visuales y espaciales del mundo real. Asi mismo, podemos definirlo como el arte de transmitir información, usando imágenes que son generadas mediante la computación.
+
+En este campo, podemos encontrar un mundo donde visualizamos objetos en 3D, el cual sacamos mucho gusto de ello. Es gratificante poder desarrollar muchos vídeo juegos usando esta librería Ursina. Además, este campo puede ser dividido en diferentes áreas.
+
+- Muestra de las areas, en seguida:
+
+| ÁREAS DE DIVISION|
+|:-----: |
+| Interpretado 3D en tiempo real|
+| Animación de computadora|
+| Captura y creación de vídeo interpretado|
+| Edición de efectos especiales
+| Edición de imagen, y modelado
 
 ---
+<h1 align="center"> ¿Quieres conocer qué facilita y en qué plataformas está disponible este motor? </h1>
 
-Es el campo de la informática visual, donde se utilizan computadoras para generar imágenes visuales y espaciales del mundo real.También podemos definirlo como el arte de transmitir información usando imágenes que son generadas mediante la computación.
 
-Este campo puede ser dividido en varias áreas: Interpretado 3D en tiempo real (a menudo usado en juegos de vídeo), animación de computadora, captura de vídeo y creación de vídeo interpretado, edición de efectos especiales (a menudo usado para películas y televisión), edición de imagen, y modelado (a menudo usado para ingeniería y objetivos médicos).
+<h2 align="center"> ¡Quédate en este espacio!  </h2>
 
-### Ursina Engine
+Lo visualizamos, a continuación:
 
-Para este laboratorio, se utilizaremos el motor gráfico de la librería [Ursina Engine](https://www.ursinaengine.org/). Podemos adquirirlo a través de `pip` con el comando:
+| FACILITA     | PLATAFORMAS |
+| :--------- | :-----|
+| El desarrollo de juegos  | Windows
+| Visualizaciones y otros tipos de software  |Mac y Linux
 
-```
-pip install ursina
-```
+---------
+Para poder instalar la librería [Ursina Engine](https://www.ursinaengine.org/), se pueden utilizar  diferentes métodos.  En esta oportunidad, usaremos lo siguiente:
 
-Una vez instalada la librería, un proyecto de `ursina` tiene la siguiente forma:
+>##### Método:
+Escribir en el terminal donde programemos, el siguiente comando: 
+`pip install ursina` y clic en Enter.
 
-```py
-from ursina import *
+------------
+- Una vez instalada la librería, un proyecto de `ursina` tiene la siguiente forma:
 
-app = Ursina()
+![](https://i.ibb.co/qrxdPRL/Im23.png)
 
-# Lógica
+---
+### DIBUJAR UNA ENTIDAD
 
-app.run()
-```
+Lo que continúa es un ejemplo en el cual, se dibuja un [cubo](https://www.ursinaengine.org/cheat_sheet.html#models "cubo") de color amarillo, en la posicion `(0,0,0)`el cual se ha rotado 45º en su eje `x` y 25º en su eje `y`,y se le aplica una textura `white_cube`.
 
-### Dibujar una entidad
-
-Lo que sigue es un ejemplo en el cual se dibuja un [cubo](https://www.ursinaengine.org/cheat_sheet.html#models) de color rojo, en la posición `(0,0,0)` el cual se ha rotado 45° en su eje `x` e `y` y se le ha aplicado la textura `white_cube`.
-
-```py
-Entity(model='cube', position=(0,0,0), color=color.red, texture='white_cube', rotation=(45,45,0))
-```
-
-La clase entity tambien puede recibir los siguientes parámetros:
-
+![]( https://i.ibb.co/bFv2W99/Im3.png)
+>**Parámetros que tambien recibe Entity:**
 - `position`: Recibe una triple tupla con la forma `(x,y,z)`
-- `texture`: Recibe el nombre de un archivo de textura (sin extensión), o puede usar una de las [texturas default](https://www.ursinaengine.org/cheat_sheet.html#textures).
-- `color`: Recibe un [color](https://www.ursinaengine.org/cheat_sheet.html#color).
+- `texture`:Recibe el nombre de un archivo de textura (sin extensión), o puede usar una de las [texturas default](https://www.ursinaengine.org/cheat_sheet.html#textures).
+- `color`: Recibe un color.
 - `rotation`: Recibe una triple tupla con los grados de rotación en cada eje.
 
-### Cámara
+------------
+### CÁMARA
+Para visualizar los objetos de una mejor manera con diferentes ángulos, añadimos las siguientes líneas de código:
 
-Para agregar una cámara de control manual, de modo que se puedan ver los objetos de distintos ángulos, se pueden agregar las siguientes líneas de código:
-
-```py
+```
 camera.orthographic = True
 EditorCamera()
 ```
-
 La cámara utiliza los siguientes controles:
-
-- `click derecho`: Rota la cámara
-- `scroll click`: Mueve la cámara
+- `click derecho`:Rota la cámara
+- `screoll click`: Mueve la cámara
 - `scroll`: Controla el zoom
 
-### Ejemplo
+------------
+### EJEMPLO
+Juntando todo lo mencionado anteriormente, tenemos el siguiente codigo, que genera dos cubos y dos esferas utilizando diferentes texturas, incluida la textura `fruit` proveniente del archivo `fruit.png`.
 
-Juntando todo lo mencionado anteriormente, tenemos el siguiente código, que genera dos cubos y dos esferas utilizando diferentes texturas, incluyendo la textura `fruit` proveniente del archivo `fruit.png`.
-
-```py
-from ursina import *
-
-app = Ursina()
-
-camera.orthographic = True
-
-Entity(model='cube', color=color.red, position=(-1,1,0), texture='brick')
-Entity(model='cube', color=color.blue, position=(1,1,0), texture='white_cube')
-Entity(model='sphere', color=color.yellow, position=(1,-1,0), texture='shore')
-Entity(model='sphere', color=color.green, position=(-1,-1,0), texture='fruit')
-
-EditorCamera()
-
-app.run()
-```
+![Ejemplito](https://i.ibb.co/nRTX7zW/Cod1.png)
 
 Y el resultado sería el siguiente:
 
-![Ejemplo](./ejemplo.png)
+![Result1](https://i.ibb.co/jDvyWCk/result1.png)
 
+---
+>Por otra parte, realizamos nuestra ejecución en otro ejemplo, con unas líneas de código; básicamente genera dos cubos y dos esferas utilizando diferentes texturas **(utec y estrellas)**, proveniente de los archivos `utec.jpg` y `estrellas.jpg`  e incluyendo un color a nuestra ventana del `result`.
+
+El `result` de esta ejecución es el siguiente:
+
+![Result2](https://i.ibb.co/qy3LZgP/Result2.png)
+
+---
 ## Parte Práctica
+Utilizando las herramientas explicadas anteriormente, dibujaré algunas [palabras](https://i.pinimg.com/564x/bd/b6/cd/bdb6cd9f52015c66fd48ec56a65f6b7e.jpg "iniciales") a base de entidades, utilizando una textura y color diferente para cada letra. Al menos una textura debe ser una externa a las incluidas con `ursina`.
 
-Utilizando las herramientas explicadas anteriormente, dibujen sus [iniciales](https://i.pinimg.com/564x/bd/b6/cd/bdb6cd9f52015c66fd48ec56a65f6b7e.jpg) a base de entidades, utilizando una textura y color diferente para cada letra. Al menos una textura debe ser una externa a las incluidas con `ursina`.
+------------
+### Entrega del trabajo
+En esta práctica, mostraré un gif del resultado de nuestra ejecución.
+Para ello, se ha implementado una función del window que le da una forma exclusiva de poder observar nuestro objetivo.
+De la misma manera, se añadió diferentes texturas para llevar a cabo nuestra misión.
 
-### Entregable
 
-- El archivo `.py` que permite dibujar sus iniciales.
-- Un `screenshot` de su creación.
+| TEXTURAS UTILIZADOS     | ARCHIVOS PROVENIENTES |
+| :--------- | :-----|
+| `<arnold>`  | `arnold.jpg`
+| `<estrellita>`  |`estrellita.jpg`
+| `<pandita>`  |`pandita.jpg`
+| `<iconito>`  |`iconito.jpg`
+| `<pandita>`  |`pandita.jpg`
+| `<lunita>`  |`lunita.jpg`
+
+> **El gif resultante de nuestra práctica:**
+  
+![](https://media.giphy.com/media/mcMZwEWYMB3siTqdls/giphy.gif)
