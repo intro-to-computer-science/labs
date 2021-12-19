@@ -6,9 +6,9 @@
 
 ### Computer vision
 
-El término Computer Vision (Visión Artificial en español) es un subcampo de machine learning que enseña a los ordenadores a ‘ver’ y entender el contenido de las imágenes digitales. Puede parecer una tarea muy simple ya que hasta un niño de tres años sabe diferenciar objetos tanto en imágenes como en videos. Sin embargo, a nivel biológico y computacional las cosas se complican bastante.
+El término Computer Vision (Visión Artificial en español) es un subcampo de machine learning que enseña a los ordenadores a ‘ver’ y entender el contenido de las imágenes digitales. Puede parecer una tarea muy simple, ya que hasta un niño de tres años sabe diferenciar objetos tanto en imágenes como en videos. Sin embargo, a nivel biológico y computacional las cosas se complican bastante.
 
-Es un hecho que las aplicaciones de Computer Vision (CV) al mundo real son innumerables. Además, las grandes empresas como Amazon, Google, Microsoft y Facebook están invirtiendo millones de euros en esta tecnología. Realizando una búsqueda en internet, llegamos a la conclusión de que muchos de los siguientes sectores están echando mano de la tecnología CV:
+Es un hecho que las aplicaciones de Computer Vision (CV) al mundo real son innumerables. Además, las grandes empresas como Amazon, Google, Microsoft y Facebook están invirtiendo millones de euros en esta tecnología. Realizando una búsqueda en internet, llegamos a la conclusión que muchos de los siguientes sectores están utilizando tecnología CV:
 
 - Automoción
 - Retail y Seguridad
@@ -56,19 +56,19 @@ Para este laboratorio, se utilizara la siguiente [página](http://ec2-3-128-171-
 
 ### Ejercicio 1:
 
-Realice una búsqueda por rango (con párametro 2), usando como input una imagen suya
+Realice una búsqueda por rango (con párametro 2), usando como input una imagen suya.
 
 ### Ejercicio 2:
 
-Realice una búsqueda de los k vecinos mas cercanos (siendo k el último digito de tu código), usando como input una imagen suyo
+Realice una búsqueda de los k vecinos mas cercanos (siendo k el último dígito de tu código), usando como input una imagen suyo.
 
 ### Ejercicio 3:
 
-Realice una búsqueda por rango (con párametro 2), usando como input la imagen del "famoso" de su preferencia
+Realice una búsqueda por rango (con párametro 2), usando como input la imagen del "famoso" de su preferencia.
 
 ### Ejercicio 4:
 
-Realice una búsqueda de los k vecinos más cercanos (siendo k el último dígito de su código), usando como input la imagen del "famoso" de su preferencia
+Realice una búsqueda de los k vecinos más cercanos (siendo k el último dígito de su código), usando como input la imagen del "famoso" de su preferencia.
 
 ---
 
