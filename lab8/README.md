@@ -18,11 +18,11 @@ db.createCollection(<nombre>);
 
 ### Inserción de datos:
 ---
-Insertar un elemento
+Insertar un elemento:
 ```
 db.<collectionName>.insertOne({<data>})
 ```
-Insertar múltiples elementos
+Insertar múltiples elementos:
 ```
 db.<collectionName>.insertMany([{<data>},{<data>},{<data>},{<data>}])
 ```
@@ -59,7 +59,7 @@ Se le puede agregar el método `.count()` para que te indique cuantos elementos 
 ```
 db.<collectionName>.update(<query>, {$set: {<key>: <newValue>}}, {"multi": true/false})
 ```
-- `query`: Busca los datos a actualizar, sigue el mismo formato que una consulta find (`{<key>: <value>}`)
+- `query`: Busca los datos a actualizar, sigue el mismo formato que una consulta find (`{<key>: <value>}`).
 - `multi`: `true` indica que se actualizan todos los valores que coincidan con el query, `false` indica que solo el primer valor que coincida se va a actualizar.
 
 ### Borrar una colección
@@ -88,7 +88,7 @@ db.iris.insertMany([
   {"sepalLength": 5.9, "sepalWidth": 3.0, "petalLength": 5.1, "petalWidth": 1.8, "species": "virginica"}
 ]);
 ```
-Buscar las flores de especie `setosa` con una longitud de sepalo mayor a `4.8`
+Buscar las flores de especie `setosa` con una longitud de sepalo mayor a `4.8`.
 ```
 db.iris.find({$and: [{"species": "setosa"}, {"sepalLength": {$gt: 4.8}}]});
 ```
