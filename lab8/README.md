@@ -88,7 +88,7 @@ db.iris.insertMany([
   {"sepalLength": 5.9, "sepalWidth": 3.0, "petalLength": 5.1, "petalWidth": 1.8, "species": "virginica"}
 ]);
 ```
-Buscar las flores de especie `setosa` con una longitud de sepalo mayor a `4.8`.
+Buscar las flores de especie `setosa` con una longitud de sépalo mayor a `4.8`.
 ```
 db.iris.find({$and: [{"species": "setosa"}, {"sepalLength": {$gt: 4.8}}]});
 ```
