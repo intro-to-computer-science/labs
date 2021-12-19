@@ -99,6 +99,6 @@ Mostrar el recorrido Post-order, In-order y Pre-Order del árbol obtenido en el 
 
 ### Entregable
 
-Debe entregar un archivo en canvas `.jpg` o `.jpeg` por pregunta con la solución a cada ejercicio siguiendo el siguiente formato: `ejercicio_x.jpg`, siendo x el número del ejercicio. Además, debe adjuntar una imagen `numeros.jpg` de los números aleatorios arrojados por la página. Puede guiarse de la siguiente imagen.
+Debe entregar un archivo en canvas `.jpg` o `.jpeg` por pregunta con la solución a cada ejercicio siguiendo el siguiente formato: `ejercicio_x.jpg`, siendo x el número del ejercicio. Además, debe adjuntar una imagen `numeros.jpg` de los números aleatorios arrojados por la página. Puede guiarse de la siguiente imagen:
 
 ![Números](./5.JPG)
