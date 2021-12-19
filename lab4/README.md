@@ -28,7 +28,7 @@ Está permitido pair-programming.
 
 ### Parte individual
 
-Cree un README.md para su *profile* de GitHub siguiento las instrucciones de la siguiente [guía](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
+Cree un README.md para su *profile* de GitHub siguiendo las instrucciones de la siguiente [guía](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
 
 Puede inspirarse en los siguientes README.md (tomado de alumnos del curso de PDB de la UTEC):
 
