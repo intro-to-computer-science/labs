@@ -4,7 +4,7 @@
 
 La visualización de datos es la representación gráfica de información y datos. Al utilizar elementos visuales como cuadros, gráficos y mapas, las herramientas de visualización de datos proporcionan una manera accesible de ver y comprender tendencias, valores atípicos y patrones en los datos.
 
-La visualización de datos es otra forma de arte visual que capta nuestro interés y mantiene nuestros ojos en el mensaje. Si podemos ver algo, lo interiorizamos rápidamente. Es contar historias con un propósito. Si alguna vez haz visto una gigantesca hoja de cálculo de datos y no te fue posible ver una tendencia, sabes cuán eficaz puede ser una visualización
+La visualización de datos es otra forma de arte visual que capta nuestro interés y mantiene nuestros ojos en el mensaje. Si podemos ver algo, lo interiorizamos rápidamente. Es contar historias con un propósito. Si alguna vez haz visto una gigantesca hoja de cálculo de datos y no te fue posible ver una tendencia, sabes cuán eficaz puede ser una visualización.
 
 ### Leer un JSON como un diccionario:
 ---
@@ -36,7 +36,7 @@ pip install matplotlib
 plt.bar(<keys>, <values>)
 plt.show()
 ```
-Dónde `keys` y `values` son listas de igual longitud. Adicionalmente, se puede pasar el argumento `color` con una lista para poder escoger el color de cada barra.
+Donde `keys` y `values` son listas de igual longitud. Adicionalmente, se puede pasar el argumento `color` con una lista para poder escoger el color de cada barra.
 
 ### Scatterplot
 
@@ -44,7 +44,7 @@ Dónde `keys` y `values` son listas de igual longitud. Adicionalmente, se puede 
 plt.scatter(<valores x>, <valores y>)
 plt.show()
 ```
-Dónde los valores del eje `x` y `y` son listas de igual longitud. Como tercer parámetro se pueden ingresar distintos símbolos para representar la información como `*` para estrellas `o` para puntos o `x` para cruces.
+Donde los valores del eje `x` y `y` son listas de igual longitud. Como tercer parámetro se pueden ingresar distintos símbolos para representar la información como `*` para estrellas `o` para puntos o `x` para cruces.
 
 Adicionalmente, se tiene el método `legend` el cual recibe una lista de títulos para la leyenda y los métodos `xlabel` y `ylabel` para darles etiquetas a los ejes `x` e `y`.
 ```py
