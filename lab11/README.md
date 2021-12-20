@@ -1,4 +1,4 @@
-# Lab-Ursina
+# Laboratorio 11 - Motor de Ursina
 ## Parte Explicativa
 
 **Ursina Engine**
